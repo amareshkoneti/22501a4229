@@ -1,21 +1,44 @@
-# React URL Shortener Web App
+# React URL Shortener
 
-
-## Project Overview
-
-A simple React application to shorten URLs with optional custom shortcodes and expiry time. Users can view statistics of the shortened URLs, including click details.
+A frontend web application built using React and Material UI.
 
 ---
 
-## Features
+## Tech Stack
 
-- Shorten up to 5 URLs at a time
-- Optional custom shortcode
-- Default expiry of 30 minutes
-- Redirection using React Router
-- Logging via provided custom middleware
-- Statistics view with click count and details
-- Responsive UI using **Material UI**
+- React (Functional Components & Hooks)
+- Material UI (MUI)
+- React Router DOM
+- LocalStorage (for persistence)
+- Custom Logging Middleware (provided)
 
 ---
+
+## Process Followed
+
+- Set up the project using `create-react-app`
+- Designed component-based architecture for reusability
+- Used Material UI for a clean and responsive interface
+- Implemented custom logging via the provided middleware
+- Managed URL data with localStorage
+- Used React Router for navigation and redirection handling
+
+---
+
+## Architecture Overview
+src/
+├── components/
+│ └── ShortenerForm.js # Form for URL input
+│ └── StatsPage.js # Statistics display
+├── context/
+│ └── LoggerContext.js # Logging context provider
+├── utils/
+│ └── logger.js # Logging wrapper using log.js
+├── pages/
+│ └── Home.js # Main page logic
+├── App.js # Route config
+├── index.js
+├── theme.js # Material UI theme
+Logging_Middleware/
+└── log.js # Provided middleware
 
