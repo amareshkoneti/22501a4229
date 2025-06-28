@@ -27,18 +27,18 @@ A frontend web application built using React and Material UI.
 
 ## Architecture Overview
 src/
-├── components/
-│ └── ShortenerForm.js # Form for URL input
-│ └── StatsPage.js # Statistics display
-├── context/
-│ └── LoggerContext.js # Logging context provider
-├── utils/
-│ └── logger.js # Logging wrapper using log.js
-├── pages/
-│ └── Home.js # Main page logic
-├── App.js # Route config
-├── index.js
-├── theme.js # Material UI theme
-Logging_Middleware/
-└── log.js # Provided middleware
+├── components/\n
+│ └── ShortenerForm.js # Form for URL input\n
+│ └── StatsPage.js # Statistics display\n
+├── context/\n
+│ └── LoggerContext.js # Logging context provider\n
+├── utils/\n
+│ └── logger.js # Logging wrapper using log.js\n
+├── pages/\n
+│ └── Home.js # Main page logic\n
+├── App.js # Route config\n
+├── index.js\n
+├── theme.js # Material UI theme\n
+Logging_Middleware/\n
+└── log.js # Provided middleware\n
 
